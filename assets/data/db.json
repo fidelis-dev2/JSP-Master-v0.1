@@ -1,0 +1,3338 @@
+{
+  "app": {
+    "name": "JSP Master",
+    "fullName": "JSP & Servlets Masterclass using Jakarta Tomcat",
+    "company": "Fidelis Paschal Shotto",
+    "admin": "Fidelis Learner",
+    "role": "Jakarta Developer Student",
+    "email": "shottofidelis2@gmail.com",
+    "phone": "+255629628637"
+  },
+  "stats": {
+    "modules": 7,
+    "lessons": 120,
+    "videos": 12,
+    "codeExamples": 120,
+    "projects": 1,
+    "diagrams": 15
+  },
+  "images": {
+    "hero": "assets/img/learning-hero.svg"
+  },
+  "modules": [
+    {
+      "id": "start",
+      "name": "Start Here",
+      "short": "Start",
+      "icon": "fa-rocket",
+      "image": "assets/img/learning-hero.svg",
+      "description": "Anza zero: tools, Tomcat, Maven, project structure na hello app."
+    },
+    {
+      "id": "servlets",
+      "name": "Servlets Deep",
+      "short": "Servlets",
+      "icon": "fa-server",
+      "image": "assets/img/servlet-life.svg",
+      "description": "Master request, response, lifecycle, forms, filters na upload."
+    },
+    {
+      "id": "jsp",
+      "name": "JSP Mastery",
+      "short": "JSP",
+      "icon": "fa-file-code",
+      "image": "assets/img/jsp-file.svg",
+      "description": "JSP, EL, JSTL, includes, MVC views na clean pages."
+    },
+    {
+      "id": "database",
+      "name": "Database CRUD",
+      "short": "Database",
+      "icon": "fa-database",
+      "image": "assets/img/jdbc-dao.svg",
+      "description": "JDBC, DAO, CRUD, search, pagination na transactions."
+    },
+    {
+      "id": "security",
+      "name": "Security & Login",
+      "short": "Security",
+      "icon": "fa-shield-halved",
+      "image": "assets/img/security.svg",
+      "description": "Sessions, authentication filters, validation, password safety na XSS/CSRF."
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment & Projects",
+      "short": "Deploy",
+      "icon": "fa-cloud-arrow-up",
+      "image": "assets/img/deploy-war.svg",
+      "description": "Maven WAR, Tomcat deployment, troubleshooting na final project."
+    },
+    {
+      "id": "videos",
+      "name": "Embedded Videos",
+      "short": "Videos",
+      "icon": "fa-circle-play",
+      "image": "assets/img/final-project.svg",
+      "description": "Video zote zinaplay ndani ya system bila kufungua YouTube."
+    }
+  ],
+  "links": {
+    "start": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "roadmap",
+        "name": "Roadmap From Zero to Hero",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "install-tomcat",
+        "name": "Install Java, Maven and Tomcat",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "project-structure",
+        "name": "Tomcat and Maven Project Structure",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "hello-servlet",
+        "name": "Hello Servlet",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "hello-jsp",
+        "name": "Hello JSP Page",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "request-response",
+        "name": "Request and Response Flow",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-06",
+        "name": "Practical Lab 06",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-12",
+        "name": "Practical Lab 12",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-18",
+        "name": "Practical Lab 18",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-24",
+        "name": "Practical Lab 24",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-30",
+        "name": "Practical Lab 30",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-36",
+        "name": "Practical Lab 36",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "start-code-lab",
+        "name": "Code Lab",
+        "icon": "fa-code"
+      },
+      {
+        "id": "start-quiz",
+        "name": "Quiz & Practice",
+        "icon": "fa-circle-question"
+      }
+    ],
+    "servlets": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "servlet-life",
+        "name": "Servlet Life Cycle",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "doget-dopost",
+        "name": "doGet vs doPost",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "forms-servlet",
+        "name": "HTML Forms to Servlet",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "forward-redirect",
+        "name": "Forward vs Redirect",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "filters",
+        "name": "Servlet Filters",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "file-upload",
+        "name": "File Upload",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-01",
+        "name": "Practical Lab 01",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-07",
+        "name": "Practical Lab 07",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-13",
+        "name": "Practical Lab 13",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-19",
+        "name": "Practical Lab 19",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-25",
+        "name": "Practical Lab 25",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-31",
+        "name": "Practical Lab 31",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "servlets-code-lab",
+        "name": "Code Lab",
+        "icon": "fa-code"
+      },
+      {
+        "id": "servlets-quiz",
+        "name": "Quiz & Practice",
+        "icon": "fa-circle-question"
+      }
+    ],
+    "jsp": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "jsp-syntax",
+        "name": "JSP Syntax",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "el-jstl",
+        "name": "EL and JSTL",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "mvc",
+        "name": "MVC Pattern",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "includes",
+        "name": "JSP Includes Header Footer",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "error-pages",
+        "name": "Error Pages",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-02",
+        "name": "Practical Lab 02",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-08",
+        "name": "Practical Lab 08",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-14",
+        "name": "Practical Lab 14",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-20",
+        "name": "Practical Lab 20",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-26",
+        "name": "Practical Lab 26",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-32",
+        "name": "Practical Lab 32",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-38",
+        "name": "Practical Lab 38",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "jsp-code-lab",
+        "name": "Code Lab",
+        "icon": "fa-code"
+      },
+      {
+        "id": "jsp-quiz",
+        "name": "Quiz & Practice",
+        "icon": "fa-circle-question"
+      }
+    ],
+    "database": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "jdbc-connect",
+        "name": "JDBC Connection",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "prepared-statement",
+        "name": "PreparedStatement",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "crud-create",
+        "name": "CRUD Create",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "crud-list",
+        "name": "CRUD Read/List",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "crud-update-delete",
+        "name": "CRUD Update and Delete",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "pagination-search",
+        "name": "Search and Pagination",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-03",
+        "name": "Practical Lab 03",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-09",
+        "name": "Practical Lab 09",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-15",
+        "name": "Practical Lab 15",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-21",
+        "name": "Practical Lab 21",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-27",
+        "name": "Practical Lab 27",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-33",
+        "name": "Practical Lab 33",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "database-code-lab",
+        "name": "Code Lab",
+        "icon": "fa-code"
+      },
+      {
+        "id": "database-quiz",
+        "name": "Quiz & Practice",
+        "icon": "fa-circle-question"
+      }
+    ],
+    "security": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "login-session",
+        "name": "Login and Session",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "auth-filter",
+        "name": "Auth Filter",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "password-hashing",
+        "name": "Password Hashing",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "validation",
+        "name": "Validation",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "csrf-xss",
+        "name": "CSRF and XSS Basics",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-04",
+        "name": "Practical Lab 04",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-10",
+        "name": "Practical Lab 10",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-16",
+        "name": "Practical Lab 16",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-22",
+        "name": "Practical Lab 22",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-28",
+        "name": "Practical Lab 28",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-34",
+        "name": "Practical Lab 34",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-40",
+        "name": "Practical Lab 40",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "security-code-lab",
+        "name": "Code Lab",
+        "icon": "fa-code"
+      },
+      {
+        "id": "security-quiz",
+        "name": "Quiz & Practice",
+        "icon": "fa-circle-question"
+      }
+    ],
+    "deployment": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "maven-war",
+        "name": "Maven WAR Build",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "tomcat-deploy",
+        "name": "Deploy to Tomcat",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "troubleshooting",
+        "name": "Troubleshooting 404/500",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "final-crud",
+        "name": "Final Student CRUD Project",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-05",
+        "name": "Practical Lab 05",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-11",
+        "name": "Practical Lab 11",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-17",
+        "name": "Practical Lab 17",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-23",
+        "name": "Practical Lab 23",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-29",
+        "name": "Practical Lab 29",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-35",
+        "name": "Practical Lab 35",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-41",
+        "name": "Practical Lab 41",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "lab-47",
+        "name": "Practical Lab 47",
+        "icon": "fa-book-open"
+      },
+      {
+        "id": "deployment-code-lab",
+        "name": "Code Lab",
+        "icon": "fa-code"
+      },
+      {
+        "id": "deployment-quiz",
+        "name": "Quiz & Practice",
+        "icon": "fa-circle-question"
+      },
+      {
+        "id": "final-project",
+        "name": "Full CRUD Project",
+        "icon": "fa-diagram-project"
+      },
+      {
+        "id": "lesson-archive",
+        "name": "120 Lessons Archive",
+        "icon": "fa-box-archive"
+      }
+    ],
+    "videos": [
+      {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "icon": "fa-house"
+      },
+      {
+        "id": "video-library",
+        "name": "Video Library",
+        "icon": "fa-video"
+      },
+      {
+        "id": "playlist",
+        "name": "Playlist Player",
+        "icon": "fa-list"
+      },
+      {
+        "id": "watch-progress",
+        "name": "Watch Progress",
+        "icon": "fa-chart-simple"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "roadmap",
+      "title": "Roadmap From Zero to Hero",
+      "module": "start",
+      "subtitle": "Mpangilio wa kujifunza bila kuruka msingi.",
+      "diagram": "assets/img/learning-hero.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza roadmap from zero to hero. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika mpango wako wa siku 14: kila siku servlet moja, JSP moja, na error moja ya kuitatua.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "install-tomcat",
+      "title": "Install Java, Maven and Tomcat",
+      "module": "start",
+      "subtitle": "Andaa mazingira ya ku-run JSP/Servlets.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza install java, maven and tomcat. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Create Maven WAR project, deploy kwenye Tomcat, kisha fungua http://localhost:8080/project-name.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "project-structure",
+      "title": "Tomcat and Maven Project Structure",
+      "module": "start",
+      "subtitle": "Elewa folders kabla ya code.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza tomcat and maven project structure. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Tengeneza folders src/main/java, src/main/webapp, WEB-INF/views, assets/css.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "hello-servlet",
+      "title": "Hello Servlet",
+      "module": "start",
+      "subtitle": "Servlet yako ya kwanza kwa Jakarta.",
+      "diagram": "assets/img/request-flow.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza hello servlet. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika HelloServlet, deploy project, then test /hello.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "hello-jsp",
+      "title": "Hello JSP Page",
+      "module": "start",
+      "subtitle": "JSP kama view layer ya kuonyesha HTML.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza hello jsp page. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Tengeneza hello.jsp yenye form ndogo ya jina na button.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "request-response",
+      "title": "Request and Response Flow",
+      "module": "start",
+      "subtitle": "Browser → Tomcat → Servlet → JSP → Browser.",
+      "diagram": "assets/img/request-flow.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza request and response flow. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Chora mwenyewe mtiririko wa request kwenye daftari kisha uandike doGet ndogo.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "servlet-life",
+      "title": "Servlet Life Cycle",
+      "module": "servlets",
+      "subtitle": "init, service, doGet/doPost na destroy.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza servlet life cycle. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Ongeza System.out.println kwenye init na doGet uone order yake kwenye logs.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "doget-dopost",
+      "title": "doGet vs doPost",
+      "module": "servlets",
+      "subtitle": "Tofauti ya kusoma page na kutuma form.",
+      "diagram": "assets/img/request-flow.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza doget vs dopost. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet",
+        "jsp-view"
+      ],
+      "practice": "Tengeneza form inayotuma POST kwenye servlet na servlet irudishe jina.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "forms-servlet",
+      "title": "HTML Forms to Servlet",
+      "module": "servlets",
+      "subtitle": "Kupokea request parameters.",
+      "diagram": "assets/img/request-flow.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza html forms to servlet. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view",
+        "crud-create"
+      ],
+      "practice": "Tengeneza register form yenye name, email, phone na ipokee kwa servlet.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "forward-redirect",
+      "title": "Forward vs Redirect",
+      "module": "servlets",
+      "subtitle": "Kuhamisha request ndani au kumrudisha browser.",
+      "diagram": "assets/img/mvc-flow.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza forward vs redirect. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Test login failure kwa forward na login success kwa redirect.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "filters",
+      "title": "Servlet Filters",
+      "module": "servlets",
+      "subtitle": "Kuzuia page kabla haijafikiwa.",
+      "diagram": "assets/img/filter-chain.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza servlet filters. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Linda /admin/* isifunguke bila session.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "file-upload",
+      "title": "File Upload",
+      "module": "servlets",
+      "subtitle": "Kupokea picha au PDF kupitia Part API.",
+      "diagram": "assets/img/file-upload.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza file upload. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Tengeneza upload form yenye enctype multipart/form-data.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "jsp-syntax",
+      "title": "JSP Syntax",
+      "module": "jsp",
+      "subtitle": "Directives, expressions na scriptlets kwa tahadhari.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza jsp syntax. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika JSP yenye table ya data static bila kuweka business logic kubwa.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "el-jstl",
+      "title": "EL and JSTL",
+      "module": "jsp",
+      "subtitle": "Tumia ${} na tags badala ya Java nyingi ndani ya JSP.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza el and jstl. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Onyesha list ya students kutoka request attribute kwa JSTL forEach.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "mvc",
+      "title": "MVC Pattern",
+      "module": "jsp",
+      "subtitle": "Servlet controller, DAO model, JSP view.",
+      "diagram": "assets/img/mvc-flow.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza mvc pattern. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao",
+        "jsp-view"
+      ],
+      "practice": "Gawa code: servlet ipokee request, DAO isome DB, JSP ionyeshe data.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "includes",
+      "title": "JSP Includes Header Footer",
+      "module": "jsp",
+      "subtitle": "Epuka kurudia header/footer kwenye kila page.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza jsp includes header footer. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Tengeneza includes/header.jsp na includes/footer.jsp kisha ziweke kwenye pages.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "error-pages",
+      "title": "Error Pages",
+      "module": "jsp",
+      "subtitle": "Onyesha error kwa user bila stacktrace mbaya.",
+      "diagram": "assets/img/error-debug.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza error pages. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Tengeneza error.jsp na ujumbe mzuri kwa 404/500.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "jdbc-connect",
+      "title": "JDBC Connection",
+      "module": "database",
+      "subtitle": "Kuunganisha Java na MySQL.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza jdbc connection. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jdbc"
+      ],
+      "practice": "Tengeneza database jsp_master na table students kisha test connection.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "prepared-statement",
+      "title": "PreparedStatement",
+      "module": "database",
+      "subtitle": "Kuzuia SQL injection.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza preparedstatement. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Badilisha query zote ziwe PreparedStatement si String concatenation.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "crud-create",
+      "title": "CRUD Create",
+      "module": "database",
+      "subtitle": "Insert data kutoka form kwenda DB.",
+      "diagram": "assets/img/crud-flow.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza crud create. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "crud-create"
+      ],
+      "practice": "Create student from form and redirect to list page.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "crud-list",
+      "title": "CRUD Read/List",
+      "module": "database",
+      "subtitle": "Kuonyesha data kwenye table.",
+      "diagram": "assets/img/crud-flow.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza crud read/list. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao",
+        "jsp-view"
+      ],
+      "practice": "Andika StudentListServlet + list.jsp.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "crud-update-delete",
+      "title": "CRUD Update and Delete",
+      "module": "database",
+      "subtitle": "Edit na delete kwa usalama.",
+      "diagram": "assets/img/crud-flow.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza crud update and delete. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Ongeza edit?id= na delete?id= routes.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "pagination-search",
+      "title": "Search and Pagination",
+      "module": "database",
+      "subtitle": "Data nyingi zisionekane ovyo.",
+      "diagram": "assets/img/pagination.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza search and pagination. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Ongeza search box na limit 10 per page.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "login-session",
+      "title": "Login and Session",
+      "module": "security",
+      "subtitle": "Kutengeneza login inayokumbuka mtumiaji.",
+      "diagram": "assets/img/session-auth.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza login and session. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Login admin/1234, save session, redirect dashboard.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "auth-filter",
+      "title": "Auth Filter",
+      "module": "security",
+      "subtitle": "Kuzuia pages za admin.",
+      "diagram": "assets/img/filter-chain.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza auth filter. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Protect /admin/* and logout by invalidating session.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "password-hashing",
+      "title": "Password Hashing",
+      "module": "security",
+      "subtitle": "Usihifadhi password plain text.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza password hashing. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Badilisha demo login itumie SHA-256 au BCrypt kwenye project yako.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "validation",
+      "title": "Validation",
+      "module": "security",
+      "subtitle": "Linda input kabla ya kuhifadhi.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza validation. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "crud-create"
+      ],
+      "practice": "Validate email, phone, empty fields, and duplicate records.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "csrf-xss",
+      "title": "CSRF and XSS Basics",
+      "module": "security",
+      "subtitle": "Kulinda form na output.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza csrf and xss basics. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Escape output, validate token, and avoid printing raw user input.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "maven-war",
+      "title": "Maven WAR Build",
+      "module": "deployment",
+      "subtitle": "Build project kuwa .war.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza maven war build. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Run mvn clean package and locate target/project.war.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "tomcat-deploy",
+      "title": "Deploy to Tomcat",
+      "module": "deployment",
+      "subtitle": "Copy WAR to webapps au tumia manager.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza deploy to tomcat. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Deploy WAR and check logs/catalina.out.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting 404/500",
+      "module": "deployment",
+      "subtitle": "Kusoma errors kama developer wa kweli.",
+      "diagram": "assets/img/error-debug.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza troubleshooting 404/500. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet",
+        "pom"
+      ],
+      "practice": "Tengeneza error makusudi, soma line number, rekebisha import.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "final-crud",
+      "title": "Final Student CRUD Project",
+      "module": "deployment",
+      "subtitle": "Mradi kamili wa ku-practice.",
+      "diagram": "assets/img/final-project.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza final student crud project. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jdbc",
+        "dao",
+        "crud-create",
+        "filter"
+      ],
+      "practice": "Fungua folder examples/student-crud-jakarta na fuata README.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-01",
+      "title": "Practical Lab 01",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 01. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab01Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-02",
+      "title": "Practical Lab 02",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 02. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab02Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-03",
+      "title": "Practical Lab 03",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 03. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab03Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-04",
+      "title": "Practical Lab 04",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 04. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab04Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-05",
+      "title": "Practical Lab 05",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 05. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab05Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-06",
+      "title": "Practical Lab 06",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 06. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab06Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-07",
+      "title": "Practical Lab 07",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 07. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab07Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-08",
+      "title": "Practical Lab 08",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 08. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab08Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-09",
+      "title": "Practical Lab 09",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 09. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab09Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-10",
+      "title": "Practical Lab 10",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 10. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab10Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-11",
+      "title": "Practical Lab 11",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 11. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab11Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-12",
+      "title": "Practical Lab 12",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 12. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab12Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-13",
+      "title": "Practical Lab 13",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 13. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab13Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-14",
+      "title": "Practical Lab 14",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 14. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab14Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-15",
+      "title": "Practical Lab 15",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 15. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab15Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-16",
+      "title": "Practical Lab 16",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 16. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab16Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-17",
+      "title": "Practical Lab 17",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 17. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab17Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-18",
+      "title": "Practical Lab 18",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 18. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab18Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-19",
+      "title": "Practical Lab 19",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 19. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab19Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-20",
+      "title": "Practical Lab 20",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 20. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab20Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-21",
+      "title": "Practical Lab 21",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 21. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab21Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-22",
+      "title": "Practical Lab 22",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 22. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab22Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-23",
+      "title": "Practical Lab 23",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 23. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab23Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-24",
+      "title": "Practical Lab 24",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 24. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab24Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-25",
+      "title": "Practical Lab 25",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 25. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab25Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-26",
+      "title": "Practical Lab 26",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 26. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab26Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-27",
+      "title": "Practical Lab 27",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 27. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab27Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-28",
+      "title": "Practical Lab 28",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 28. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab28Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-29",
+      "title": "Practical Lab 29",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 29. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab29Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-30",
+      "title": "Practical Lab 30",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 30. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab30Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-31",
+      "title": "Practical Lab 31",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 31. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab31Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-32",
+      "title": "Practical Lab 32",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 32. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab32Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-33",
+      "title": "Practical Lab 33",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 33. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab33Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-34",
+      "title": "Practical Lab 34",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 34. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab34Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-35",
+      "title": "Practical Lab 35",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 35. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab35Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-36",
+      "title": "Practical Lab 36",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 36. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab36Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-37",
+      "title": "Practical Lab 37",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 37. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab37Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-38",
+      "title": "Practical Lab 38",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 38. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab38Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-39",
+      "title": "Practical Lab 39",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 39. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab39Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-40",
+      "title": "Practical Lab 40",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 40. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab40Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-41",
+      "title": "Practical Lab 41",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 41. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab41Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-42",
+      "title": "Practical Lab 42",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 42. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab42Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-43",
+      "title": "Practical Lab 43",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 43. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab43Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-44",
+      "title": "Practical Lab 44",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 44. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab44Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-45",
+      "title": "Practical Lab 45",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 45. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab45Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-46",
+      "title": "Practical Lab 46",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 46. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab46Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-47",
+      "title": "Practical Lab 47",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 47. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab47Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-48",
+      "title": "Practical Lab 48",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 48. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab48Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-49",
+      "title": "Practical Lab 49",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 49. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab49Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-50",
+      "title": "Practical Lab 50",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 50. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab50Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-51",
+      "title": "Practical Lab 51",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 51. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab51Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-52",
+      "title": "Practical Lab 52",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/juYRKKOTk58",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 52. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab52Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-53",
+      "title": "Practical Lab 53",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 53. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab53Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-54",
+      "title": "Practical Lab 54",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 54. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab54Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-55",
+      "title": "Practical Lab 55",
+      "module": "servlets",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/servlet-life.svg",
+      "video": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 55. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "jsp-view"
+      ],
+      "practice": "Andika Lab55Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-56",
+      "title": "Practical Lab 56",
+      "module": "jsp",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jsp-file.svg",
+      "video": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 56. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "dao"
+      ],
+      "practice": "Andika Lab56Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-57",
+      "title": "Practical Lab 57",
+      "module": "database",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/jdbc-dao.svg",
+      "video": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 57. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "login"
+      ],
+      "practice": "Andika Lab57Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-58",
+      "title": "Practical Lab 58",
+      "module": "security",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/security.svg",
+      "video": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 58. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "filter"
+      ],
+      "practice": "Andika Lab58Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-59",
+      "title": "Practical Lab 59",
+      "module": "deployment",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/deploy-war.svg",
+      "video": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 59. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "pom"
+      ],
+      "practice": "Andika Lab59Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    },
+    {
+      "id": "lab-60",
+      "title": "Practical Lab 60",
+      "module": "start",
+      "subtitle": "Mazoezi ya kuandika code mwenyewe bila kutegemea video.",
+      "diagram": "assets/img/tomcat-structure.svg",
+      "video": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "objectives": [
+        "Elewa maana yake kwa lugha rahisi kama mtoto anavyoelekezwa.",
+        "Jua file gani linaandikwa na kwa nini linaandikwa hapo.",
+        "Andika code ndogo inayofanya kazi kabla ya kwenda hatua inayofuata."
+      ],
+      "concept": "Katika somo hili unajifunza practical lab 60. Fikiria browser kama mteja, Tomcat kama mpishi, Servlet kama mtu anayepokea order, JSP kama sahani inayopangwa vizuri, na database kama stoo ya taarifa. Ukielewa mtiririko huu utaweza kujenga system kubwa bila kuchanganyikiwa.",
+      "steps": [
+        "Fungua project yako ya Maven yenye packaging ya WAR.",
+        "Hakikisha Tomcat 10.1+ ipo tayari na Java 11+ ipo kwenye mashine.",
+        "Tumia import za jakarta.* kwenye servlet, filter na listener.",
+        "Run project, soma error ikitokea, kisha rekebisha kwa hatua moja moja."
+      ],
+      "codeKeys": [
+        "hello-servlet"
+      ],
+      "practice": "Andika Lab60Servlet.java, ongeza route yake, kisha test kwenye browser. Hakikisha hakuna javax.* import yoyote.",
+      "quiz": [
+        "Ni nani anapokea request kutoka browser?",
+        "Kwa nini hatuweki business logic nzito ndani ya JSP?",
+        "Utafanyaje ukipata HTTP Status 500?"
+      ]
+    }
+  ],
+  "codes": {
+    "hello-servlet": "package tz.shotto.learn.servlet;\n\nimport jakarta.servlet.annotation.WebServlet;\nimport jakarta.servlet.http.HttpServlet;\nimport jakarta.servlet.http.HttpServletRequest;\nimport jakarta.servlet.http.HttpServletResponse;\nimport java.io.IOException;\n\n@WebServlet(\"/hello\")\npublic class HelloServlet extends HttpServlet {\n    @Override\n    protected void doGet(HttpServletRequest request, HttpServletResponse response)\n            throws IOException {\n        response.setContentType(\"text/html;charset=UTF-8\");\n        response.getWriter().println(\"<h1>Hello from Jakarta Servlet</h1>\");\n        response.getWriter().println(\"<p>Servlet yako ya kwanza imefanya kazi.</p>\");\n    }\n}",
+    "jsp-view": "<%@ page contentType=\"text/html;charset=UTF-8\" language=\"java\" %>\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Student Form</title>\n</head>\n<body>\n    <h1>Register Student</h1>\n    <form method=\"post\" action=\"students/create\">\n        <input type=\"text\" name=\"fullName\" placeholder=\"Full name\" required>\n        <input type=\"email\" name=\"email\" placeholder=\"Email\" required>\n        <button type=\"submit\">Save</button>\n    </form>\n</body>\n</html>",
+    "pom": "<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\">\n  <modelVersion>4.0.0</modelVersion>\n  <groupId>tz.shotto</groupId>\n  <artifactId>jsp-masterclass</artifactId>\n  <version>1.0</version>\n  <packaging>war</packaging>\n\n  <dependencies>\n    <dependency>\n      <groupId>jakarta.servlet</groupId>\n      <artifactId>jakarta.servlet-api</artifactId>\n      <version>6.0.0</version>\n      <scope>provided</scope>\n    </dependency>\n    <dependency>\n      <groupId>jakarta.servlet.jsp.jstl</groupId>\n      <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>\n      <version>3.0.0</version>\n    </dependency>\n  </dependencies>\n</project>",
+    "jdbc": "package tz.shotto.learn.config;\n\nimport java.sql.Connection;\nimport java.sql.DriverManager;\nimport java.sql.SQLException;\n\npublic class DB {\n    private static final String URL = \"jdbc:mysql://localhost:3306/jsp_master\";\n    private static final String USER = \"root\";\n    private static final String PASS = \"\";\n\n    public static Connection getConnection() throws SQLException {\n        return DriverManager.getConnection(URL, USER, PASS);\n    }\n}",
+    "dao": "public List<Student> findAll() throws SQLException {\n    String sql = \"SELECT id, full_name, email, phone FROM students ORDER BY id DESC\";\n    List<Student> students = new ArrayList<>();\n\n    try (Connection con = DB.getConnection();\n         PreparedStatement ps = con.prepareStatement(sql);\n         ResultSet rs = ps.executeQuery()) {\n        while (rs.next()) {\n            Student s = new Student();\n            s.setId(rs.getInt(\"id\"));\n            s.setFullName(rs.getString(\"full_name\"));\n            s.setEmail(rs.getString(\"email\"));\n            s.setPhone(rs.getString(\"phone\"));\n            students.add(s);\n        }\n    }\n    return students;\n}",
+    "login": "@WebServlet(\"/login\")\npublic class LoginServlet extends HttpServlet {\n    @Override\n    protected void doPost(HttpServletRequest request, HttpServletResponse response)\n            throws IOException, ServletException {\n        String username = request.getParameter(\"username\");\n        String password = request.getParameter(\"password\");\n\n        if (\"admin\".equals(username) && \"1234\".equals(password)) {\n            request.getSession().setAttribute(\"loggedUser\", username);\n            response.sendRedirect(request.getContextPath() + \"/dashboard\");\n        } else {\n            request.setAttribute(\"error\", \"Invalid username or password\");\n            request.getRequestDispatcher(\"/WEB-INF/views/auth/login.jsp\").forward(request, response);\n        }\n    }\n}",
+    "filter": "@WebFilter(\"/admin/*\")\npublic class AuthFilter implements Filter {\n    @Override\n    public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)\n            throws IOException, ServletException {\n        HttpServletRequest request = (HttpServletRequest) req;\n        HttpServletResponse response = (HttpServletResponse) res;\n\n        Object user = request.getSession().getAttribute(\"loggedUser\");\n        if (user == null) {\n            response.sendRedirect(request.getContextPath() + \"/login\");\n            return;\n        }\n        chain.doFilter(req, res);\n    }\n}",
+    "crud-create": "@WebServlet(\"/students/create\")\npublic class StudentCreateServlet extends HttpServlet {\n    private final StudentDAO dao = new StudentDAO();\n\n    @Override\n    protected void doPost(HttpServletRequest request, HttpServletResponse response)\n            throws IOException, ServletException {\n        Student student = new Student();\n        student.setFullName(request.getParameter(\"fullName\"));\n        student.setEmail(request.getParameter(\"email\"));\n        student.setPhone(request.getParameter(\"phone\"));\n\n        try {\n            dao.save(student);\n            response.sendRedirect(request.getContextPath() + \"/students?msg=saved\");\n        } catch (SQLException e) {\n            request.setAttribute(\"error\", e.getMessage());\n            request.getRequestDispatcher(\"/WEB-INF/views/students/form.jsp\").forward(request, response);\n        }\n    }\n}"
+  },
+  "videos": [
+    {
+      "id": "v01",
+      "title": "Video Lesson 01",
+      "src": "https://www.youtube.com/embed/b42CJ0r-1to",
+      "topic": "Tomcat"
+    },
+    {
+      "id": "v02",
+      "title": "Video Lesson 02",
+      "src": "https://www.youtube.com/embed/oX2rw5pAdxw",
+      "topic": "Servlet"
+    },
+    {
+      "id": "v03",
+      "title": "Video Lesson 03",
+      "src": "https://www.youtube.com/embed/gqyB0ef4duY",
+      "topic": "JSP"
+    },
+    {
+      "id": "v04",
+      "title": "Video Lesson 04",
+      "src": "https://www.youtube.com/embed/0YZzAQKGtvo",
+      "topic": "MVC"
+    },
+    {
+      "id": "v05",
+      "title": "Video Lesson 05",
+      "src": "https://www.youtube.com/embed/juYRKKOTk58",
+      "topic": "JDBC"
+    },
+    {
+      "id": "v06",
+      "title": "Video Lesson 06",
+      "src": "https://www.youtube.com/embed/_oEOH23OYYQ",
+      "topic": "Security"
+    },
+    {
+      "id": "v07",
+      "title": "Video Lesson 07",
+      "src": "https://www.youtube.com/embed/RqiuxA_OFOk",
+      "topic": "Deploy"
+    },
+    {
+      "id": "v08",
+      "title": "Video Lesson 08",
+      "src": "https://www.youtube.com/embed/r3o_eN-QJNw",
+      "topic": "CRUD"
+    },
+    {
+      "id": "v09",
+      "title": "Video Lesson 09",
+      "src": "https://www.youtube.com/embed/v9nqZBSZQ0U",
+      "topic": "Filters"
+    },
+    {
+      "id": "v10",
+      "title": "Video Lesson 10",
+      "src": "https://www.youtube.com/embed/WxWNWL_GoHc",
+      "topic": "Sessions"
+    },
+    {
+      "id": "v11",
+      "title": "Video Lesson 11",
+      "src": "https://www.youtube.com/embed/rElJIPRw5iM",
+      "topic": "Errors"
+    },
+    {
+      "id": "v12",
+      "title": "Video Lesson 12",
+      "src": "https://www.youtube.com/embed/videoseries?list=PLGt1lxwGVOI6s2QXLp0foEeMfy9Iul2SS",
+      "topic": "Final Project"
+    }
+  ]
+}

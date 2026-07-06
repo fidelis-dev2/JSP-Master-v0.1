@@ -1,0 +1,25 @@
+CREATE DATABASE IF NOT EXISTS jsp_master_db;
+USE jsp_master_db;
+
+CREATE TABLE IF NOT EXISTS users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(60) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  full_name VARCHAR(120) NOT NULL,
+  role VARCHAR(30) NOT NULL DEFAULT 'ADMIN',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  full_name VARCHAR(120) NOT NULL,
+  email VARCHAR(120) NOT NULL,
+  phone VARCHAR(30),
+  course VARCHAR(80) NOT NULL,
+  status VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO users(username,password,full_name,role)
+VALUES('admin','12345','System Administrator','ADMIN')
+ON DUPLICATE KEY UPDATE username=username;

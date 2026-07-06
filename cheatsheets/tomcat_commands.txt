@@ -1,0 +1,5 @@
+mvn clean package
+copy target/app.war %CATALINA_HOME%/webapps
+startup.bat
+shutdown.bat
+tail -f logs/catalina.out
